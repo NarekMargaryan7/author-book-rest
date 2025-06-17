@@ -1,0 +1,8 @@
+spring:
+        datasource:
+        url: jdbc:mysql://localhost:3306/author_book?createDatabaseIfNotExist=true
+        username: admin
+        password: admin
+
+        jwt:
+        secret: YXNkZmYkIyNzZFNEU0RBQVNERksjQEBkc2ZqZGZrZHNqQEAjZHNmZ2ZnZmdeXiYmWipeJSQkI2RzZHMkIyVzZDQ1MDk5KUkjJCg5V0ZTSUo=
