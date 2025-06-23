@@ -24,6 +24,7 @@ public class Book {
     private double price;
     private int qty;
     @ManyToOne
+    @JoinColumn(name = "author_id", nullable = false)
     private Author author;
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date createdAt;

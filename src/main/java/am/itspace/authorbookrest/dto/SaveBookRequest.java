@@ -18,12 +18,12 @@ import java.util.Date;
 @NoArgsConstructor
 public class SaveBookRequest {
 
-    private int id;
-    private String title;
-    private double price;
-    private int qty;
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private Date createdAt;
-    private Author author;
+        private int id;
+        private String title;
+        private double price;
+        private int qty;
+        @DateTimeFormat(pattern = "yyyy-MM-dd")
+        private Date createdAt;
+        private Author author;
 
 }

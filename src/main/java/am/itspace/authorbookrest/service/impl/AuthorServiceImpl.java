@@ -21,7 +21,6 @@ import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
-@Primary
 public class AuthorServiceImpl implements AuthorService {
 
 
